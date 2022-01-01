@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <title>What is VPN?</title>
+    <meta name="description" content="DEs">
+    <style>
+      body{
+        background-color: #f1f3f4;
+      }
+.navs{
+background-color: #1A1A1D;
+outline: none;
+
+width: 100%;
+
+
+}
+.menu {
+  font-family: 'PT Sans Caption';
+  font-size: 15px;
+  font-weight: bold;
+  
+  padding-bottom: 10px;
+}
+.a {
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  
+  position: relative;
+}
+.ac{
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 2px solid #5cdb95;
+  
+}
+.a:hover .b {display: block;}
+.a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #5cdb95;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.text{
+  border-bottom: 2px solid white;
+  height: 400px;
+  padding-top: 100px;
+  background-color: #1A1A1D;
+  color: #5cdb95;
+  font-family: 'Paytone One';
+  font-size: 200px;
+}
+.container1 {
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.bar1, .bar2, .bar3 {
+  outline: none;
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  border: none;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+  }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.H{
+  border-bottom: 2px solid #5cdb95;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+.db:hover{
+  background-color: #5cdb95;
+  color: #effcef;
+}
+.leftcolumn { 
+  border-radius: 20px;  
+  float: left;
+  width: 50%;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+.card:hover {   
+  -webkit-box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
+box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 40%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 50px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+/* Fake image */
+.fakeimg1 {
+  
+  width: 30%;
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: none;
+   font-family: 'Poppins', ;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+
+
+
+
+hr.hrl{
+position: relative;
+border-width: 5px;
+border-color:#5cdb95;
+
+width: 100%;
+}
+.headd{
+  position: relative;
+  bottom: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #5cdb95;
+  font-weight: bold;
+  width: 50%;
+ 
+}
+.blg{
+    background-color: #ffffff;
+    border-radius: 20px;
+ 
+} 
+
+.more{
+  border: 2px solid #5cdb95;
+  background-color: #5cdb95;
+  color: white;
+  height: 50px;
+  border-width: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.more:hover{
+  border: 2px solid #5cdb95;
+  background-color: #5cdb95;
+  color: white;
+  height: 50px;
+  border-width: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  opacity: 0.8;
+  
+
+}
+
+.pagination {
+  display: inline-block;
+  
+}
+
+.pagination a {
+  color:#5cdb95;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a:hover {
+  color:white;
+  background-color: #5cdb95;
+  opacity: 0.4;
+  border-radius: 50px;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color:#5cdb95;
+  border-radius: 50px;
+  color: white;
+}
+.headd{
+  position: relative;
+  bottom: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #5cdb95;
+  font-weight: bold;
+  width: 50%;
+ 
+
+} 
+.button {
+  position: relative;
+  background-color:#5cdb95;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 360px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #5cdb95;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+
+.button {
+  position: relative;
+  background-color:#5cdb95;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 360px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #5cdb95;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+
+    </style>
+    <link rel="canonical" href="https://www.koliblogs.com/what-is-vpn/">
+    <meta property="title" content="What is VPN? - Koliblogs.com">
+    <meta name="description" content=" A VPN (virtual private network) provide us the secure connection between two
+    networks over the internet. We can access the websites or other activities which
+    we are not allowed to access.">
+    <meta property="type" content="article">
+    <meta name="keywords" content="what is vpn,how vpn works,why vpn is important">
+    <meta name="author" content="Kamal koli">
+  </head>
+  <body>
+<header>
+  <nav class="navs navbar navbar-expand-lg navbar-light navbar-inverse  shadow">
+    <a href="index.html"><img src="image/logo (2).png" alt="KOLIBLOGS" width="80px;" height="100px;"></a>
+  <a class="navbar-brand text-light font-weight-bold" href="index.html">KOLIBLOGS.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container1" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto menu">
+      <li class="a nav-item active mr-3">
+        <a class="ac nav-link text-light" href="index.html">HOME<span class="sr-only"></span></a>
+      </li>
+      <li class="a nav-item active mr-3">
+        <a class="nav-link text-light" href="team.html">TEAM<span class="sr-only"></span></a>
+      </li>
+      <li class="a nav-item active mr-3">
+        <a class="nav-link text-light" href="blogs.html">BLOGS<span class="sr-only"></span></a>
+      </li>
+       
+      </li>
+      <li class="a nav-item active mr-5">
+        <a class="nav-link text-light" href="contact.html">CONTACT<span class="sr-only"></span></a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+</header>
+<br>
+<br>
+<br>
+<div class="container p-5">
+<div class="heading text-center">
+    <h2>What is VPN?Why VPN is important?</h2>
+</div>
+</div>
+
+<div class="container">
+    <div class="row mt-5 mb-5  ">
+<h1  style="color:#5cdb95; font-weight: bold;" class="mt-5">Q.What is a VPN?</h1><br> <br>
+
+<p style="color: #1A1A1D; font-size: 25px; float:left;" class="mt-2"> 
+    A VPN (virtual private network) provide us the secure connection between two
+    networks over the internet. We can access the websites or other activities which
+    we are not allowed to access. It also protects your device’s browsing activities and
+    if you are using any public wifi by which you might get hacked, it also protects you
+    from that. <br>
+    <br>
+    It can hide your actual location and identity over the internet, by that you will be
+    anonymous to the internet.  <br> <br>
+    If you are living in a country and you want access the data or information of other
+    country you can also do that with the help of VPN. That time VPN can hide your
+    actual location.  <br><br>
+    Actually VPN was created for business purpose. <br> <br>
+    
+    </p>
+<h1  style="color:#5cdb95; font-weight: bold;" class="mt-5">Why VPN is important?</h1> <br> <br>
+<p style="color: #1A1A1D; font-size: 25px; float:left;" class="mt-2">
+    VPN provides us security when we are surfing the internet.
+If you want that the data or information you share or retrieve over the internet
+should be safe and secure than you should definitely use VPN. 
+ </p>
+ <br> <br><br><br>
+ <h1  style="color:#5cdb95; font-weight: bold;" class="mt-5">Why we dont have to use VPN?</h1> <br>
+<p style="color: #1A1A1D; font-size: 25px; float:left;" class="mt-2">
+    You must have a question in your mind that if VPN is so much important then why
+    don’t everybody use it ? <br>
+    Then the answer is that there many types of VPNs in which some are free which
+    are public and some are of course private. <br>
+    Public VPN are free and they are less secure and they also show lots of ads while
+    surfing the internet and it also slows down your browsing speed . <br>
+    If you buy a private VPN then of course it is so much costly but it is secure, so
+    always remember there is nothing is free ! <br>
+    So if you are so much private person and don’t want your data to be leaked then
+    you must buy a VPN. <br>
+ </p>
+ 
+</div>
+</div>
+
+
+<hr class="hrl">
+ <br>
+ <br>
+ <div class="container ">
+    <div class="heading text-center">
+        <h4><a href="sushil.html" class="text-decoration-none">by Sushil Stark</a></h4><h5>| 02 March, 2020 |</h5>
+    </div>
+    </div>
+<br><br>
+  <!-- Footer -->
+<footer style="background-color: #1A1A1D;" class="page-footer font-small ">
+
+  <div style="background-color:#5cdb95;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">CONNECT WITH US :</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic"  href="https://www.facebook.com/Koliblogs-108709237404599/">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+        
+          <!--Instagram-->
+          <a class="ins-ic"  href="https://www.instagram.com/koliblogs/">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold text-light H">KOLIBLOGS.</h6>
+        <br>
+        <p class="text-light">Hello and Welcome to KOLIBLOGS. A Blog where you read all article that will help you easy to understand.</p>
+
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold  text-light H">CATEGORY</h6>
+        <br>
+        <p><a class="text-light" href="inter.html">INTERNET</a></p>
+        <p><a class="text-light" href="soft.html">SOFTWARE</a></p>
+        <p><a class="text-light" href="prog.html">PROGRAMING</a></p>
+        <p><a class="text-light" href="books.html">NETWORKING</a></p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold  text-light H">Contact</h6>
+        <br>
+        <p class="text-light"><i class="fa fa-home mr-3 text-light"></i>New Delhi, India</p>
+        <p class="text-light"><i class="fa fa-envelope mr-3 text-light"></i><a href="mailto:kamalkolhi303@gmail.com">kamalkolhi303@gmail.com</a></p>
+      </div>
+  </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <hr class="light accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 1000px;">
+
+  <div class="footer-copyright text-center py-3 text-light">© Copyright 2020, All Right Reseved.</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</section>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+  </body>
+</html>
